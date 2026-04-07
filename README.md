@@ -1,20 +1,28 @@
-Navegador (index.html)
+# How to Start
+```
+- npm init -y
+- npm install typescript --save-dev
+- npm install -D @types/cors
+- npx tsc --init 
+- npm run dev
+```
+# Initializing
+```
+- Navigator (index.html)
    ↓
-app.js (fetch a localhost)
+- app.js (fetch to localhost)
    ↓
-Servidor Node (index.ts)
+- Server Node (index.ts)
    ↓
-CajeroService (business)
+- CajeroService (business)
    ↓
-CuentaRepository (data)
+- CuentaRepository (data)
    ↓
-Respuesta (JSON)
+- Response (JSON)
    ↓
-Frontend muestra resultado
+- Frontend Watch the result
+```
 
+## About the project
 
-npm init -y
-npm install typescript --save-dev
-npm install -D @types/cors
-npx tsc --init 
-npm run dev
+In this project you can simulate an ATM, this include some functionalities as insert values, insert value max for the ATM etc. This beta version isn't completed, in the future we plan to include an Frontend presentation and a lot of characteristics for do avaible more functionalities 

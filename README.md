@@ -6,7 +6,7 @@
 - npx tsc --init 
 - npm run dev
 ```
-# Initializing
+# Initializing flow
 ```
 - Navigator (index.html)
    ↓
